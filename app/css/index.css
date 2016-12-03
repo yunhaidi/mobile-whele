@@ -18,22 +18,30 @@ html,body{
     position: absolute;
     top:0;left:0;
 }
-.p3{
-    width: 16rem;
-    position: absolute;
-    right:2rem;
-    top: 5rem;
-}
 .p2{
-    width: 13rem;
+    width: 3.59rem;
+    height:1.43rem;
     position: absolute;
-    right:2rem;
-    top: 5rem;
+    left:2.5rem;
+    top: 1.6rem;
 }
-.btn{
-    width: 5rem;
+.p3{
+    width: 4.5rem;
     position: absolute;
-    right:1rem;
-    top: 1rem;
+    left:1.7rem;
+    top: 2rem;
+}
+.p4{
+    width: 4.45rem;
+    position: absolute;
+    left:1.8rem;
+    top: 1.6rem;
+}
+
+.btn{
+    width: 1.2rem;
+    position: absolute;
+    right:0.46rem;
+    top: 0.3rem;
     cursor: pointer;
 }

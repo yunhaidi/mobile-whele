@@ -32,7 +32,7 @@
         <div class="swiper-slide">
             <img src="image/bg3.jpg" alt="" width="100%">
             <img src="image/5.png" alt="" class="p1 ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="1s" swiper-animate-delay="0s">
-            <img src="image/6.png" alt="" class="p3 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.3s">
+            <img src="image/6.png" alt="" class="p4 ani" swiper-animate-effect="fadeInDown" swiper-animate-duration="1.2s" swiper-animate-delay="0.3s">
             <img src="image/btn.png" alt="" class="btn ani" swiper-animate-effect="fadeIn" swiper-animate-duration="1s" swiper-animate-delay="0.6s">
         </div>
     </div>
@@ -52,7 +52,7 @@
         var html=document.querySelector("html");
         html.style.fontSize=scale+"px";
     }
-        resize("y",1334);
+        resize(1334,"y");
     var mySwiper = new Swiper ('.swiper-container', {
         onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
             swiperAnimateCache(swiper); //隐藏动画元素
